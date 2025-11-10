@@ -8,7 +8,7 @@
 .container{
     width:100%;
     height:100vh;
-    background:#e3f9ff;
+    background:linear-gradient(135deg,#3a6186,#89253e);
     display: flex;
     align-items:center;
     justify-content: center;
@@ -20,14 +20,15 @@
     border-radius: 10px;
 
 }
-.calculator form input{
+.calculator form input:hover{
     border:0;
     outline:0;
     width:60px;
     height:60px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255,255, 0.1),5px 5px 15px rgba(0, 0,0, 0.2);
-    background:transparent;
+    background:#555;
+    transition:0.2s;
 
     font-size: 20px;
     color:#e3f9ff;
@@ -49,6 +50,8 @@ form  .display input{
 }
 form input.enter{
     width: 145px;
+    background: #28a745;
+    font-weight: bold;
 
 }
 form input .operator{
@@ -61,4 +64,9 @@ form input .operator{
     }
     
 }
-
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size:14px;
+}
