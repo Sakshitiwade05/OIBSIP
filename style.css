@@ -20,7 +20,7 @@
     border-radius: 10px;
 
 }
-.calculator form input:hover{
+.calculator form input{
     border:0;
     outline:0;
     width:60px;
@@ -54,9 +54,7 @@ form input.enter{
     font-weight: bold;
 
 }
-form input .operator{
-    color:aquamarine;
-}
+
 @media(max-width : 480px){
     #display{
         font-size:20px;
@@ -70,4 +68,3 @@ footer{
     margin-top: 20px;
     font-size:14px;
 }
-
